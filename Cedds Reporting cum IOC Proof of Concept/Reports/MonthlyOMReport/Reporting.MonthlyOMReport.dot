@@ -1,0 +1,4 @@
+#2 projects analysed
+digraph G {
+"Reporting.MonthlyOMReport" -> "Reporting.Base";
+}

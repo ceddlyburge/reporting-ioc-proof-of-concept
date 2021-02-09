@@ -1,0 +1,8 @@
+#4 projects analysed
+digraph G {
+"Reporting.MvcApplication" -> "Reporting.Base";
+"Reporting.MvcApplication" -> "Reporting.WordReportWriter";
+"Reporting.MvcApplication" -> "Reporting.MvcUI";
+"Reporting.WordReportWriter" -> "Reporting.Base";
+"Reporting.MvcUI" -> "Reporting.Base";
+}

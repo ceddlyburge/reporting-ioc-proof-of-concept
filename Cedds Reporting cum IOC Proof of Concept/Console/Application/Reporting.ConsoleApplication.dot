@@ -1,0 +1,10 @@
+#5 projects analysed
+digraph G {
+"Reporting.ConsoleApplication" -> "Reporting.ConsoleUI";
+"Reporting.ConsoleApplication" -> "Reporting.Base";
+"Reporting.ConsoleApplication" -> "Reporting.TextReportWriter";
+"Reporting.ConsoleApplication" -> "Reporting.WordReportWriter";
+"Reporting.ConsoleUI" -> "Reporting.Base";
+"Reporting.TextReportWriter" -> "Reporting.Base";
+"Reporting.WordReportWriter" -> "Reporting.Base";
+}
